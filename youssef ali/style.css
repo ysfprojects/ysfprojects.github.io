@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu",sans-serif;
+  }
+  
+  body{
+    background-image:url("ff.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 48px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    
+
+  .login-form{
+    width: calc(100% - 20px);
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 40px;
+    height: 50%;
+    border-radius: 12px;
+
+  }
+  
+  .login-form h1{
+    text-align: center;
+    margin: 45px 0;
+    font-size: 36px;
+    color: rgb(11, 11, 11);
+    font-size: 36px;
+  }
+  
+  .textb{
+    margin-bottom: 12px;
+    position: relative;
+  }
+  
+  .textb input{
+    width: 100%;
+    height: 70px;
+    border: none;
+    background-color: #ededed;
+    border-radius: 12px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 60px 0 10px;
+  }
+  
+  .placeholder{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    line-height: 70px;
+    top: 0;
+    left: 20px;
+    color: #9d9d9d;
+    user-select: none;
+    pointer-events: none;
+  }
+  
+  .show-password{
+    position: absolute;
+    right: 20px;
+    line-height: 70px;
+    color: #9d9d9d;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .textb input:focus ~ .placeholder,
+  .textb input:valid ~ .placeholder{
+    left: 10px;
+    top: -16px;
+  }
+  
+  .checkbox{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .checkbox input{
+    width: 24px;
+    height: 24px;
+    -webkit-appearance: none;
+    background-color: #ededed;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .checkbox .fa-check{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    width: 24px;
+    text-align: center;
+    user-select: none;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  .checkbox input:checked{
+    background-color: #bc252a;
+  }
+  
+  .checkbox input:checked + .fa-check{
+    opacity: 1;
+  }
+  
+  .btn{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    background-color: #bc252a;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s linear;
+  }
+  
+  .cursor{
+    cursor: pointer;
+  }
+  .btn:hover{
+    opacity: .85;
+  }
+  
+  .login-form a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 8px;
+    transition: .2s linear;
+  }
+  
+  .login-form a:hover{
+    color: #111;
+  }
+  
+  .btn:disabled{
+    background-color: transparent;
+    color: #ddd;
+    border: 7px solid;
+  }
+  * {
+    margin: 0;
+  }
+  
+ 
+ 
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: "Sen", sans-serif;
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 30px;
+    color:goldenrod;
+  }
+  
+  .menu-container {
+    flex: 6;
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-list-item {
+    margin-right: 30px;
+  }
+ 
+ 
+ 
+  .menu-list-item.active {
+    font-weight: bold;
+  }
+  .profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .profile-text-container {
+    margin: 0 20px;
+  }
+  
+  .profile-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .toggle {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+  
+  .toggle-icon {
+    color: goldenrod;
+  }
+  
+  .toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s ease all;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .left-menu-icon {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+ .imgf{
+     background-color: black;
+margin-left: 20px;
+
+ }
+  .container {
+    background-color: #ffffff;
+    min-height: calc(100vh - 50px);
+    color: rgb(14, 14, 14);
+    border-radius: 12px;
+  }
+  
+  .content-container {
+    margin-left: 50px;
+  }
+  
+  .li{
+    position: static;
+    list-style: none;
+
+  }
+  
+  .featured-content {
+    height: 50vh;
+    padding: 50px;
+  }
+  
+  .featured-title {
+    width: 200px;
+  }
+  
+  .featured-desc {
+    width: 500px;
+    color:darkgoldenrod;
+    margin: 30px 0;
+    font-size: 50pt;
+    font-family: "Roboto", sans-serif;  
+}
+  
+  .featured-button {
+    background-color: #4dbf00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  .movie-list-container {
+     padding: 0 20px;
+       
+
+}
+  
+  .movie-list-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .movie-list {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+  }
+  
+  .movie-list-item {
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .movie-list-item:hover .movie-list-item-img {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+  }
+  
+  .movie-list-item:hover .movie-list-item-title,
+  .movie-list-item:hover .movie-list-item-desc,
+  .movie-list-item:hover .movie-list-item-button {
+    opacity: 1;
+  }
+  
+  .movie-list-item-img {
+    transition: all 1s ease-in-out;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .movie-list-item-title {
+    background-color: #333;
+    padding: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  
+  .movie-list-item-desc {
+    background-color: #333;
+    padding: 5px;
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    width: 190px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  
+  .movie-list-item-button {
+    padding: 10px;
+    background-color: #4dbf00;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  
+  .arrow {
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: lightgray;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .container.active {
+    background-color: white;
+  }
+  
+  .movie-list-title.active {
+    color: black;
+  }
+  
+  .navbar-container.active {
+    background-color: white;
+  
+    color: black;
+  }
+  
+  .sidebar.active{
+      background-color: white;
+  }
+  
+  .left-menu-icon.active{
+      color: black;
+  }
+  
+  .toggle.active{
+      background-color: black;
+  }
+  
+  .toggle-ball.active{
+      background-color: white;
+      transform: translateX(-20px);
+  }
+  
+  @media only screen and (max-width: 940px){
+      .menu-container{
+          display: none;
+      }
+  }
+  body {font-family: "Ubuntu",sans-serif;}
+  * {box-sizing: border-box;}
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0 0px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 40px auto;
+    background-color: #bc252a;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-image: url(cvvr.jpeg);
+    background-size: cover;
+    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+
+    height: 30%;
+    width: 30%; /* Could be more or less, depending on screen size */
+    border-radius: 12px;
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }

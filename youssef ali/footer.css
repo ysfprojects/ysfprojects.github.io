@@ -1,0 +1,140 @@
+/*  start footer  */
+  .footer {
+    height: 300px;
+    top: 1550px;  
+    background-color:darkgoldenrod;
+    background-size: cover;
+    position: relative;
+  }
+  .landing .overlay1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* titles */
+  .home, .home a:visited {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    color: black;
+    text-shadow: 2px 0 0 rgb(194, 198, 221);
+  }
+  .home a:hover {
+    color: forestgreen;
+  }
+  .home a:active {
+    color: blue;
+  }
+  
+  .movies, .movies a:visited {
+    position: absolute;
+    top: 40px;
+    left: 350px;
+    color: black;
+    text-shadow: 2px 0 0 rgb(194, 198, 221);
+  }
+  .movies a:hover {
+    color: forestgreen;
+  }
+  .movies a:active {
+    color: blue;
+  }
+  .follow-us {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    color: black;
+    text-shadow: 2px 0 0 rgb(194, 198, 221);
+  }
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  /* under titles */
+  .about-home, .about-home a:visited {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    color: rgb(194, 198, 221);
+    text-decoration: none;
+    line-height: 30px;
+  }
+  .about-home a:hover {
+    color: forestgreen;
+  }
+  .about-home a:active {
+    color: blue;
+  }
+  
+  .about-movies, .about-movies a:visited {
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    color: rgb(194, 198, 221);
+    text-decoration: none;
+    line-height: 30px;
+  }
+  .about-movies a:hover {
+    color: forestgreen;
+  }
+  .about-movies a:active {
+    color: blue;
+  }
+  .about-news, .about-news a:visited {
+    position: absolute;
+    top: 90px;
+    left: 800px;
+    width: 150px;
+    color: rgb(194, 198, 221);
+    text-decoration: none;
+    line-height: 30px;
+  }
+  .about-news a:hover {
+    color: forestgreen;
+  }
+  .about-news a:active {
+    color: blue;
+  }
+  
+  .about-follow-us {
+    position: absolute;
+    top: 90px;
+    left: 1000px;
+    letter-spacing: 2px; 
+  }
+  a:hover {
+    color: forestgreen;
+  }
+  a:active {
+    color: blue;
+  }
+  
+  .fa {
+    padding: 15px 10px;
+    font-size: 30px; 
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(211, 211, 211);
+  }
+  .fa-facebook {  
+    border: 3px solid black;
+    background-color: black;
+  }
+  .fa-twitter {
+    border: 3px solid black;
+    background-color: black;
+  }
+  .fa-youtube {
+    border: 3px solid black;
+    background-color: black;
+    background: rgb(0, 0, 0);
+  }
+  .fa-instagram {
+    border: 3px solid black;
+    background-color: black;
+    background: rgb(0, 0, 0);
+  }
+  /*  end footer  */
