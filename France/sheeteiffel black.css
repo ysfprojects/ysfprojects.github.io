@@ -305,3 +305,21 @@ p {
     background-color: black;
     background: rgb(0, 0, 0);
   }
+
+
+.c a {
+	color:white;
+	text-decoration:none;
+	
+	
+	
+}
+
+
+
+.c a:hover {
+	opacity:0.5;	
+	
+	
+	
+}
