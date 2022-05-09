@@ -1,0 +1,308 @@
+.page-header {    
+    font-size: 1rem;
+    text-align: left;
+    color: #3C4858;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    background-position: center center;
+    background-size: cover;
+    margin: -120;
+    padding: 500;
+    border: 150;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+    min-height: 90vh;
+    background-image: url('tokyo.jpg');
+    border-radius: 8px; 
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, .7);
+}
+.container{
+    font-weight: 300;
+    width: 100%;
+    padding-right: 300px;
+    padding-left: 200px;
+    max-width: 720px; 
+    
+}
+.row{    
+    display: flex;
+    margin-right: -45px;
+    margin-left: -45px;
+}
+.col-md-8{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; 
+}
+.title{
+    line-height: 1.15em;
+    margin: 70px 250px 70px 10px;
+    font-weight: 700;
+    font-family: "Times New Roman", serif;
+    color:   #b30000;
+    font-size: 45px!important;
+}
+#tok{
+    font-family:"Arial";
+    color: #0099cc ;
+    padding-top:35px;
+    margin-bottom:200px;
+    margin-left:220px;
+    font-size:40px
+}
+.frist{  
+    color: #3C4858;
+    font-family: "Arial";
+    font-weight: 300;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: 0 70px -60px;
+    font-size: 20px;
+    text-align: justify;
+}
+.leftt{
+    
+    color: #3C4858;
+    font-family: "Arial";
+    font-weight: 300;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: -520px 70px 10px 520px;
+    font-size: 20px;
+    text-align: left;
+}
+.fig{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: left;
+    color: #ffb433;
+    font-size: 15px;
+    padding-top: 5px;
+    font-style: italic;
+    
+ }                   
+.imgsenso{
+  margin:5px 0 0 550px;
+  border-radius: 8px; 
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, .7);
+}
+.figu{
+     font-family: "Roboto";
+     font-size: 15px;
+     padding-top: 5px;
+     font-style: italic;
+     margin:0 0 0 550px;
+     color: #3691b0;
+    }
+body{
+    background-color:#e6e6ff;
+    margin: 0px;
+}
+.rightt{
+     color: #3C4858;
+     font-family: "Arial";
+     font-weight: 300;
+     line-height: 1.5em;
+     box-sizing: border-box;
+     margin: -555px 565px 0px 10px;
+     font-size: 20px;
+     text-align: left;
+}
+.last{
+    
+    color: #3C4858;
+    font-family: "Arial";
+    font-weight: 300;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: -286px -15px 10px 750px;
+    font-size: 20px;
+    text-align: left;
+}
+.fig2{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: left;
+    color: #999900;
+    font-size: 15px;
+    padding-top: 5px;
+    font-style: italic;
+    margin-left:30px;
+ }   
+.lastt{
+    
+    color: #3C4858;
+    font-family: "Arial";
+    font-weight: 300;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: 17px 15px 0px;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 13%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  width:100%;
+  
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.navbar{
+	z-index:1;
+	background-color:grey;
+	opacity:0.6;
+	position:fixed;
+	width:100%;
+        
+}
+.navbar a{
+	padding: 1% 1%;
+	font-size:18px;
+	margin-right:4%;
+
+	float:right;
+	
+	text-decoration:none;
+	
+	
+}
+
+.navbar {
+	
+display: flex;
+	
+flex-direction: row;
+	
+position:sticky;
+	
+top:0;
+	
+background-color:white;
+
+}
+
+
+
+
+
+.navbar a {
+	
+
+font-family:'Brush Script MT';
+	padding: 1% 1%;
+	font-size:18px;
+	margin-right:4%;
+
+	
+float:left;
+	color:black;
+	text-decoration:none;
+}
+
+.navbar a:hover {
+	opacity:0.5;
+	color:white;
+	background-color:#05a081;
+
+}
+
+#logo {
+	margin-left:4%;
+	float:left;
+}
+
+.navbar a:hover{
+	color:white;
+	
+	
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+	position:sticky;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+}
+#footer .link {
+    height: 100%;
+}
+.c{
+	
+    display: flex;
+    flex-direction: row;
+}
+.c li{
+	
+    margin-bottom: 16px;
+}
+.c a {
+	color:white;
+	
+	
+}
+.fa {
+    padding: 15px 10px;
+    font-size: 30px; 
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(211, 211, 211);
+  }
+.fa a{
+    margin: 20px;
+}
+.fa:hover {
+	border: 3px solid white;
+	
+}
+  .fa-facebook {  
+    border: 3px solid black;
+    background-color: black;
+  }
+  .fa-twitter {
+    border: 3px solid black;
+    background-color: black;
+  }
+  .fa-youtube {
+    border: 3px solid black;
+    background-color: black;
+    background: rgb(0, 0, 0);
+  }
+  .fa-instagram {
+    border: 3px solid black;
+    background-color: black;
+    background: rgb(0, 0, 0);
+  }
+
+
+
