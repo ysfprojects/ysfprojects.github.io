@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test</title>
+    <style>
+        body {
+    margin: 0px;
+    font-family: sans-serif;
+    line-height: 150%;
+    font-size: large;
+
+}
+		#contentlist {
+    height: auto;
+    background-color: black;
+}
+
+h1 {
+    color: #fff;
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#contentlist ul {
+    width: fit-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-size: large;
+}
+
+#contentlist li a:hover {
+    background-color: #666;
+    color: white;
+}
+
+#contentlist li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#title {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+}
+#content{
+	background-image: url("pexels-nicolas-2267348.jpg");
+	background-size:cover;
+}
+    </style>
+    <script>
+        
+    </script>
+</head>
+
+<body>
+	<div style="display: flex;flex-direction: row;">
+        <div id="contentlist" style="width:13%;">
+            <ul style="margin-top: 76px;">
+                <li><a href="#the main information">the main information</a></li>
+                <li><a href="#origin">origin</a></li>
+                <li><a href="#Material">Material</a></li>
+                <li><a href="#Engraved names">Engraved names</a></li>
+
+            </ul>
+        </div>
+		<div id="content" style="width: 90%;">
+			 <h1 id="title">Eiffel Tower</h1>
+            <video autoplay muted loop width="100%">
+            <source src="eiffel-tower v.mp4" type="video/mp4">
+        </video>
+            <h2 id="the main information">the main information</h2>
+            <div id="buttons">
+                <button style="margin-right:5px;" type="button" onclick="showh()">height</button>
+                <button style="margin-right:5px;" type="button" onclick="showd()">dates</button>
+                <button type="button" onclick="show3d()">shape</button>
+
+            </div>
+            <div id="b">
+                <div id="contenth" style="display: none;">The height of Eiffel-Tower is 330 meters</div>
+                <div id="contentd" style="display: none;">
+                    <ul>
+                        <li>The construction start date is 1887/1/28</li>
+                        <li>The opening date is 1889/3/31</li>
+                    </ul>
+                </div>
+                <video autoplay muted loop id="content3d" style="display: none;">
+                <source src="3d.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div class="cont">
+                <p> <span class="tab"></span>The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.It is named after the engineer Gustave Eiffel, whose company designed and built the tower.
+                </p>
+            </div>
+            <div id="bage">
+                <h2 id="origin"><em>origin</em></h2>
+                <div id="p">
+                    <div class="cont">
+
+                        <p><img src="first.jpg">
+                            <span class="tab"></span>The design of the Eiffel Tower is attributed to Maurice Koechlin and Émile Nouguier, two senior engineers working for the Compagnie des Établissements Eiffel. It was envisioned after discussion about
+                            a suitable centerpiece for the proposed 1889 Exposition Universelle, a world's fair to celebrate the centennial of the French Revolution. Eiffel openly acknowledged that inspiration for a tower came from the Latting Observatory
+                            built in New York City in 1853.In May 1884, working at home, Koechlin made a sketch of their idea, described by him as "a great pylon, consisting of four lattice girders standing apart at the base and coming together at the
+                            top, joined together by metal trusses at regular intervals". Eiffel initially showed little enthusiasm, but he did approve further study, and the two engineers then asked Stephen Sauvestre, the head of the company's architectural
+                            department, to contribute to the design. Sauvestre added decorative arches to the base of the tower, a glass pavilion to the first level, and other embellishments.
+                        </p>
+
+                    </div>
+                    <h2 id="Material">Material</h2>
+                    <div class="cont">
+
+                        <p><img src="under eiffel.jpg">
+                            <span class="tab"></span>The puddle iron (wrought iron) of the Eiffel Tower weighs 7,300 tonnes, and the addition of lifts, shops and antennae have brought the total weight to approximately 10,100 tonnes. As a demonstration
+                            of the economy of design, if the 7,300 tonnes of metal in the structure were melted down, it would fill the square base, 125 metres (410 ft) on each side, to a depth of only 6.25 cm (2.46 in) assuming the density of the metal
+                            to be 7.8 tonnes per cubic metre. Additionally, a cubic box surrounding the tower (324 m × 125 m × 125 m) would contain 6,200 tonnes of air, weighing almost as much as the iron itself. Depending on the ambient temperature,
+                            the top of the tower may shift away from the sun by up to 18 cm (7 in) due to thermal expansion of the metal on the side facing the sun.
+                        </p>
+
+                    </div>
+                    <h2 id="Engraved names">Engraved names</h2>
+                    <div class="cont">
+
+                        <p><img src="names.jpg">
+                            <span class="tab"></span>Gustave Eiffel engraved on the tower the names of 72 French scientists, engineers and mathematicians in recognition of their contributions to the building of the tower. Eiffel chose this "invocation
+                            of science" because of his concern over the artists' protest. At the beginning of the 20th century, the engravings were painted over, but they were restored in 1986–87 by the Société Nouvelle d'exploitation de la Tour Eiffel,
+                            a company operating the tower.
+                        </p>
+
+                    </div>
+                    <h2>Popularity</h2>
+                    <div class="cont">
+
+                        <p><img src="people.jfif">
+                            <span class="tab"></span>More than 250 million people have visited the tower since it was completed in 1889. In 2015, there were 6.91 million visitors. The tower is the most-visited paid monument in the world. An average of
+                            25,000 people ascend the tower every day which can result in long queues.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <h2>Completion dates</h2>
+            <div id="maincont">
+                <div id="cont1">
+                    <img src="eiffel1.JPG"> 18 July 1887: The start of the erection of the metalwork
+                </div>
+                <div id="cont2"><img src="eiffel2.JPG">7 December 1887: Construction of the legs with scaffolding</div>
+                <div id="cont3"><img src="eiffel3.JPG">20 March 1888: Completion of the first level</div>
+                <div id="cont4"><img src="eiffel4.JPG">15 May 1888: Start of construction on the second stage</div>
+                <div id="cont5"><img src="eiffel5.JPG">21 August 1888: Completion of the second level</div>
+                <div id="cont6"><img src="eiffel6.JPG">26 December 1888: Construction of the upper stage</div>
+                <div id="cont7"><img src="eiffel7.JPG">15 March 1889: Construction of the cupola</div>
+            </div>
+        </div>
+		
+</body>
+
+</html>

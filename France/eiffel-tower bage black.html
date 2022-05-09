@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Art Of Building-eiffel-tower</title>
+    <link rel="stylesheet" href="sheeteiffel black.css">
+    <link rel="icon" href="eiffel-tower/y-logo.png" type="image/icon">
+    <script>
+        function showh() {
+            var x = document.getElementById("contenth");
+            var y = document.getElementById("contentd");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+                y.style.marginLeft = "auto";
+            } else {
+                x.style.display = "flex";
+                y.style.marginLeft = "5px";
+            }
+        }
+
+        function showd() {
+            var x = document.getElementById("contentd");
+            var y = document.getElementById("content3d");
+            var z = document.getElementById("contenth")
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+                x.style.marginRight = "auto";
+                y.style.marginLeft = "auto";
+                x.style.marginleft = "auto";
+
+            } else if (y.style.display === "flex") {
+                x.style.display = "flex";
+                y.style.marginLeft = "5px";
+                x.style.marginRight = "0px";
+
+            } else if (z.style.display === "flex") {
+                x.style.display = "flex";
+                x.style.marginleft = "5px";
+            } else {
+                x.style.display = "flex";
+                x.style.marginRight = "auto";
+                y.style.marginLeft = "auto";
+                x.style.marginleft = "auto";
+            }
+        }
+
+        function show3d() {
+            var x = document.getElementById("content3d");
+            var y = document.getElementById("contentd");
+            if (x.style.display === "none" && y.style.display === "flex") {
+                x.style.display = "flex";
+                y.style.marginRight = "5px";
+                x.style.marginLeft = "0px";
+            } else if (x.style.display === "none" && y.style.display === "none") {
+                x.style.display = "flex";
+                x.style.marginLeft = "auto";
+
+            } else {
+                x.style.display = "none";
+                y.style.marginRight = "auto";
+                x.style.marginLeft = "auto";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+		<a id="logo" href="../indexdark.html" style="margin-right: auto;"><img src="y-logo1.png" height="30px" style="margin-bottom: 0;margin-top: 0;"></img></a>
+		
+		
+		<a href="../aboutdark.html">About</a>
+		<a href="../project/contact.html">Contact</a>
+		<a href="../discoverdark.html">Discover</a>
+		<a href="eiffel-tower bage.html" style="margin-right: 2%;">white</a>
+        <div class="dd">
+			<button class="ddb">Egypt</button>
+			<div class="contdd">
+				<a href="../morsy/dark_museums.html">museums</a>
+				<a href="../morsy/dark_alex.html">alex</a>
+                <a href="../som3a/pyramid2.html.html">pyramid</a>
+                <a href="../som3a/temples2.html.html">temples</a>
+			</div>
+		</div>
+        
+        <div class="dd">
+			<button class="ddb">Iraq</button>
+			<div class="contdd">
+				<a href="../project/iraq_dark.html">Hanging Gardens of Babylon</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">palestine</button>
+			<div class="contdd">
+				<a href="../project2/dark.html">Mosques</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">China</button>
+			<div class="contdd">
+				<a href="../Final Project Web Development/Wall_China_dark.html">Great Wall Of China</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">Japan</button>
+			<div class="contdd">
+				<a href="../project/tokyoo_dark.html">tokyo</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">france</button>
+			<div class="contdd">
+				<a href="../France/eiffel-tower bage black.html">eiffel-tower</a>
+				<a href="../France/Arc de Triomphe black.html">Triumphal arch</a>
+			</div>
+		</div>
+        <div class="dd">
+            <button class="ddb">Italy</button>
+            <div class="contdd">
+                <a href="../youssef ali/dark-mode.html">Colosseum</a>
+                <a href="../Final Project Web Development/Pisa_italy_dark.html">Pisa</a>
+            </div>
+        </div>
+        <a id="navlogin" href="../youssef ali/login page.html">Login/Register</a>
+	</div>
+	<div id="contentlist" style="width:13%;">
+            <ul>
+                <li><a href="#the main information">the main information</a></li>
+                <li><a href="#origin">origin</a></li>
+                <li><a href="#Material">Material</a></li>
+                <li><a href="#Engraved names">Engraved names</a></li>
+				<li><a href="#Popularity">Popularity</a></li>
+				<li><a href="#Completion dates">Completion dates</a></li>
+            </ul>
+        </div>
+    <div style="display: flex; justify-content: flex-end;">
+        
+        <div id="content" style="width: 86.7%;">
+            <h1 id="title">Eiffel Tower</h1>
+            <video autoplay muted loop width="100%" style="margin-bottom: 0px;">
+            <source src="eiffel-tower/eiffel-tower v.mp4" type="video/mp4">
+        </video>
+        <div id="the main information" style="margin-bottom: 3%;margin-top:0px;"><br></div>
+            <h2>the main information</h2>
+            <div id="buttons">
+                <button style="margin-right:5px;" type="button" onclick="showh()" >height</button>
+                <button style="margin-right:5px;" type="button" onclick="showd()">dates</button>
+                <button type="button" onclick="show3d()" >shape</button>
+
+            </div>
+            <div id="b" style="margin-bottom: 0px;">
+                <div id="contenth" style="display: none;">The height of Eiffel-Tower is 330 meters</div>
+                <div id="contentd" style="display: none;">
+                    <ul>
+                        <li>The construction start date is 1887/1/28</li>
+                        <li>The opening date is 1889/3/31</li>
+                    </ul>
+                </div>
+                <video autoplay muted loop id="content3d" style="display: none;" >
+                <source src="eiffel-tower/3d.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div class="cont">
+                <p> <span class="tab"></span>The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.It is named after the engineer Gustave Eiffel, whose company designed and built the tower.
+                </p>
+            </div>
+            <div id="bage">
+                <div id="origin" style="margin-bottom: 3%;margin-top:0px;"><br></div>
+                <h2 ><em>origin</em></h2>
+                <div id="p">
+                    <div class="cont">
+
+                        <p><img src="eiffel-tower/first.jpg">
+                            <span class="tab"></span>The design of the Eiffel Tower is attributed to Maurice Koechlin and Émile Nouguier, two senior engineers working for the Compagnie des Établissements Eiffel. It was envisioned after discussion about
+                            a suitable centerpiece for the proposed 1889 Exposition Universelle, a world's fair to celebrate the centennial of the French Revolution. Eiffel openly acknowledged that inspiration for a tower came from the Latting Observatory
+                            built in New York City in 1853.In May 1884, working at home, Koechlin made a sketch of their idea, described by him as "a great pylon, consisting of four lattice girders standing apart at the base and coming together at the
+                            top, joined together by metal trusses at regular intervals". Eiffel initially showed little enthusiasm, but he did approve further study, and the two engineers then asked Stephen Sauvestre, the head of the company's architectural
+                            department, to contribute to the design. Sauvestre added decorative arches to the base of the tower, a glass pavilion to the first level, and other embellishments.
+                        </p>
+                    </div>
+					<div id="Material" style="margin-bottom: 3%;margin-top:0px;"><br></div>
+                    <h2 >Material</h2>
+                    <div class="cont" >
+
+                        <p><img src="eiffel-tower/under eiffel.jpg">
+                            <span class="tab"></span>The puddle iron (wrought iron) of the Eiffel Tower weighs 7,300 tonnes, and the addition of lifts, shops and antennae have brought the total weight to approximately 10,100 tonnes. As a demonstration
+                            of the economy of design, if the 7,300 tonnes of metal in the structure were melted down, it would fill the square base, 125 metres (410 ft) on each side, to a depth of only 6.25 cm (2.46 in) assuming the density of the metal
+                            to be 7.8 tonnes per cubic metre. Additionally, a cubic box surrounding the tower (324 m × 125 m × 125 m) would contain 6,200 tonnes of air, weighing almost as much as the iron itself. Depending on the ambient temperature,
+                            the top of the tower may shift away from the sun by up to 18 cm (7 in) due to thermal expansion of the metal on the side facing the sun.
+                        </p>
+
+                    </div>
+                    <div id="Engraved names" style="margin-bottom: 3%;margin-top:0px;"><br></div>
+                    <h2 >Engraved names</h2>
+                    <div class="cont">
+
+                        <p><img src="eiffel-tower/names.jpg">
+                            <span class="tab"></span>Gustave Eiffel engraved on the tower the names of 72 French scientists, engineers and mathematicians in recognition of their contributions to the building of the tower. Eiffel chose this "invocation
+                            of science" because of his concern over the artists' protest. At the beginning of the 20th century, the engravings were painted over, but they were restored in 1986–87 by the Société Nouvelle d'exploitation de la Tour Eiffel,
+                            a company operating the tower.
+                        </p>
+
+                    </div>
+                    <div id="Popularity" style="margin-bottom: 3%;margin-top:0px;"><br></div>
+                    <h2 >Popularity</h2>
+                    <div class="cont">
+
+                        <p><img src="eiffel-tower/people.jfif">
+                            <span class="tab"></span>More than 250 million people have visited the tower since it was completed in 1889. In 2015, there were 6.91 million visitors. The tower is the most-visited paid monument in the world. An average of
+                            25,000 people ascend the tower every day which can result in long queues.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="Completion dates" style="margin-bottom: 3%;margin-top:0px;"><br></div>
+            <h2>Completion dates</h2>
+            <div id="maincont">
+                <div id="cont1">
+                    <img src="eiffel-tower/eiffel1.JPG"> 18 July 1887: The start of the erection of the metalwork
+                </div>
+                <div id="cont2"><img src="eiffel-tower/eiffel2.JPG">7 December 1887: Construction of the legs with scaffolding</div>
+                <div id="cont3"><img src="eiffel-tower/eiffel3.JPG">20 March 1888: Completion of the first level</div>
+                <div id="cont4"><img src="eiffel-tower/eiffel4.JPG">15 May 1888: Start of construction on the second stage</div>
+                <div id="cont5"><img src="eiffel-tower/eiffel5.JPG">21 August 1888: Completion of the second level</div>
+                <div id="cont6"><img src="eiffel-tower/eiffel6.JPG">26 December 1888: Construction of the upper stage</div>
+                <div id="cont7"><img src="eiffel-tower/eiffel7.JPG">15 March 1889: Construction of the cupola</div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="link" style="margin-left: 50px;">
+            <h4>home</h4>
+            <p>My Profile</p>
+        </div>
+        <div style="margin-left: 150px;">
+            <h4>countries</h4>
+            <div class="c">
+                <ul style="margin-right: 40px;">
+                    <li style="color:white;"><a href="../France/eiffel-tower bage black.html">france_eiffel</a></li>
+                    <li style="color:white;"><a href="../project/iraq_dark.html">Iraq</a></li>
+                    <li style="color:white;"><a href="../France/Arc de Triomphe black.html">France_Arc</a></li>
+        
+                </ul>
+                <ul style="margin-right: 40px;">
+                    <li style="color:white;"><a href="../som3a/pyramid2.html.html">Egypt_pyrammids</a></li>
+                    <li style="color:white;"><a href="../som3a/temples2.html.html">Egypt_temples</a></li>
+                    <li style="color:white;"><a href="../morsy/dark_alex.html">Egypt_Alex</a></li>
+        
+                </ul>
+                <ul>
+                    <li style="color:white;"><a href="../youssef ali/dark-mode.html">Italy Colosseume</a></li>
+                    <li style="color:white;"><a href="../Final Project Web Development/Wall_China_dark.html">China</a></li>
+                    <li style="color:white;"><a href="../project/tokyoo_dark.html">Japan</a></li>
+                </ul>
+        
+        
+                <ul>
+                    <li style="color:white;"><a href="../project2/dark.html">philistine</a></li>
+                    <li style="color:white;"><a href="../morsy/dark_museums.html">Egypt_museums</a></li>
+        
+                </ul>
+            </div>
+        </div>
+        <div style="margin-left: auto; margin-right: 100px;">
+            <h4>Follow Us</h4>
+            <div class="about-follow-us">
+                <!-- Add icon library -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+                <!-- Add font awesome icons -->
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
