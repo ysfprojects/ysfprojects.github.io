@@ -68,7 +68,7 @@ body{
 }
 .discover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-image: url("image/pyramids.jpg");
+	background-image: url("image/pyra.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	
@@ -87,9 +87,10 @@ body{
 #textundernav {
 	z-index:999;
 	position: absolute;
-	top:25%;
-	left:12%;
-	font-size:30px;
+	top:12%;
+	left:8%;
+	font-size:50px;
+	text-shadow: 2px 2px 5px white;
 
 
 

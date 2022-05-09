@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <link rel="icon" href="y-logo1.png" type="image/icon">
+<style>
+body{
+    margin: 0px;
+}
+.nav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav li a.active {
+    background-color: rgb(0, 80, 133);
+    color: #ffffff;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+#footer{
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  position: sticky;
+  background-color: #17242d;
+  height: 250px;
+  width: 100%;
+}
+#footer .link {
+  height: 100%;
+}
+.c{
+  display: flex;
+  flex-direction: row;
+}
+.c li{
+  margin-bottom: 16px;
+  display: ;
+}
+.c a {
+	color:white;
+	text-decoration: none;
+    display: block;
+}
+.c a:hover{
+    opacity: 0.5;
+}
+.fa {
+  padding: 15px 10px;
+  font-size: 30px; 
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: rgb(211, 211, 211);
+}
+.fa a{
+  margin: 20px;
+}
+.fa-facebook {  
+  border: 3px solid black;
+  background-color: black;
+}
+.fa-twitter {
+  border: 3px solid black;
+  background-color: black;
+}
+.fa-youtube {
+  border: 3px solid black;
+  background-color: black;
+  background: rgb(0, 0, 0);
+}
+.fa-instagram {
+  border: 3px solid black;
+  background-color: black;
+  background: rgb(0, 0, 0);
+}
+.navbar {
+	display: flex;
+	flex-direction: row;
+	position:sticky;
+	top:0;
+	background-color:white;
+}
+
+
+
+
+.navbar a {
+	font-family:'Brush Script MT';
+	padding: 1% 1%;
+	font-size:18px;
+	margin-left:2%;
+    float: left;
+   
+	color:black;
+	text-decoration:none;
+}
+
+.navbar a:hover {
+	opacity:0.5;
+	color:white;
+	background-color:#05a081;
+}
+
+
+
+#logo {
+	margin-left:3%;
+	float:left;
+}
+#navlogin {
+	background-color:#05a081;
+	color:white;
+}
+.dd{
+	position: relative;
+	
+}
+.ddb{
+	background-color: #04AA6D;
+  	color: white;
+  	padding: 16px;
+  	font-size: 16px;
+	height: 100%;
+  	border: none;
+}
+.contdd {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:160px;
+	float: left;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.contdd a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+  	display: block;
+	width: 75%;
+}
+.contdd a :hover {background-color: #ddd;}
+.dd:hover .contdd{
+	display: block;
+}
+.dd:hover .ddb{
+	background-color: #3e8e41;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body style="background-color:LightGray;">
+
+	<div class="navbar">
+		<a id="logo" href="../index.html" style="margin-right: auto;"><img src="y-logo1.png" height="30px" style="margin-bottom: 0;margin-top: 0;"></img></a>
+		
+		
+		<a href="../about.html">About</a>
+		<a href="../project/contact.html">Contact</a>
+		<a href="../discover.html">Discover</a>
+		<a href="dark_alex.html" style="margin-right: 2%;">white</a>
+        <div class="dd">
+			<button class="ddb">Egypt</button>
+			<div class="contdd">
+				<a href="../morsy/page1.html">museums</a>
+				<a href="../morsy/page2.html">alex</a>
+                <a href="../som3a/pyramid.html.html">pyramid</a>
+                <a href="../som3a/temples.html.html">temples</a>
+			</div>
+		</div>
+        
+        <div class="dd">
+			<button class="ddb">Iraq</button>
+			<div class="contdd">
+				<a href="../project/iraq_light.html">Hanging Gardens of Babylon</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">palestine</button>
+			<div class="contdd">
+				<a href="../project2/light.html">Mosques</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">China</button>
+			<div class="contdd">
+				<a href="../Final Project Web Development/Wall_China.html">Great Wall Of China</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">Japan</button>
+			<div class="contdd">
+				<a href="../project/tokyoo.html">tokyo</a>
+			</div>
+		</div>
+        <div class="dd">
+			<button class="ddb">france</button>
+			<div class="contdd">
+				<a href="../France/eiffel-tower bage.html">eiffel-tower</a>
+				<a href="../France/Arc de Triomphe.html">Triumphal arch</a>
+			</div>
+		</div>
+        <div class="dd">
+            <button class="ddb">Italy</button>
+            <div class="contdd">
+                <a href="../youssef ali/Italy.html">Colosseum</a>
+                <a href="../Final Project Web Development/Pisa_italy.html">Pisa</a>
+            </div>
+        </div>
+        <a id="navlogin" href="login.html">Login/Register</a>
+	</div>
+<div style="height:100% ; width:14% ;">
+    <ul class="nav">
+        
+        
+        <li><a href="#first">Library of Alexandria</a></li>
+        <li><a href="#second">Al-Azhar Mosque</a></li>
+        <li><a href="#third">General Notes</a></li>
+    </ul>
+</div>
+<div style="margin-left:14% ;">
+<h1 style="font-size:70px;text-align:center;background-color:GoldenRod;"> Important places in Egypt </h1>
+<div id="first" > </div>
+<h1 style="font-family:verdana; color:SlateBlue;">Library of Alexandria</h1>
+<p style="font-size:20px;">This article is about the ancient library. For its present-day counterpart, see Bibliotheca Alexandrina. For other uses, see Alexandria Library.(Great library) redirects here. For the library of Quebec in Montreal, see Grande Bibliothèque. For the library of Bagdad during the Islamic Golden Age, see House of Wisdom.</p><br>
+<img src="Ancientlibraryalex.jpg" width="53.5%"><img src="800px-Ptolemy_II_MAN_Napoli_Inv5600.jpg" width="46.5%">
+<h3>Historical background </h3>
+<p>
+The Library of Alexandria was not the first library of its kind.A long tradition of libraries existed in both Greece and in the ancient Near East. The earliest recorded archive of written materials comes from the ancient Sumerian city-state of Uruk in around 3400 BC, when writing had only just begun to develop.Scholarly curation of literary texts began in around 2500 BC.The later kingdoms and empires of the ancient Near East had long traditions of book collecting.The ancient Hittites and Assyrians had massive archives containing records written in many different languages.The most famous library of the ancient Near East was the Library of Ashurbanipal in Nineveh, founded in the seventh century BC by the Assyrian king Ashurbanipal (ruled 668–c. 627 BC).A large library also existed in Babylon during the reign of Nebuchadnezzar II (c. 605–c. 562 BC).In Greece, the Athenian tyrant Peisistratos was said to have founded the first major public library in the sixth century BC.It was out of thee mixed heritage of both Greek and Near Eastern book collections that the idea for the Library of Alexandria was born.
+The Macedonian kings who succeeded Alexander the Great as rulers of the Near East wanted to promote Hellenistic culture and learning throughout the known world. Historian Roy MacLeod calls this "a programme of cultural imperialism". These rulers, therefore, had a vested interest to collect and compile information from both the Greeks and from the far more ancient kingdoms of the Near East.Libraries enhanced a city's prestige, attracted scholars, and provided practical assistance in matters of ruling and governing the kingdom.Eventually, for these reasons, every major Hellenistic urban center would have a royal library.The Library of Alexandria, however, was unprecedented because of the scope and scale of the Ptolemies' ambitions; unlike their predecessors and contemporaries, the Ptolemies wanted to produce a repository of all knowledge.[4][5]
+
+<a  title="wikipedia" href="https://en.wikipedia.org/wiki/Library_of_Alexandria">for more click here</a>
+</p>
+<div id="second" > </div>
+<hr><hr>
+
+
+<h1 style="font-family:verdana; color:SlateBlue;">Al-Azhar Mosque</h1>
+<p style="font-size:20px;">Al-Azhar Mosque , a title given to Fatimah bent Muhammad, the Prophet of Islam. It was the first mosque established in Cairo, a city that has since gained the nickname "the City of a Thousand Minarets".[b]
+
+After its dedication in 972, and with the hiring by mosque authorities of 35 scholars in 989, the mosque slowly developed into what is today the second oldest continuously run university in the world after Al Karaouine in Idrisid Fes. Al-Azhar University has long been regarded as the foremost institution in the Islamic world for the study of Sunni theology and sharia, or Islamic law. The university, integrated within the mosque as part of a mosque school since its inception, was nationalized and officially designated an independent university in 1961, following the Egyptian Revolution of 1952.
+
+Over the course of its over a millennium-long history, the mosque has been alternately neglected and highly regarded. Because it was founded as a Shiite Ismaili institution, Saladin and the Sunni Ayyubid dynasty that he founded shunned al-Azhar, removing its status as a congregational mosque and denying stipends to students and teachers at its school. These moves were reversed under the Mamluk Sultanate, under whose rule numerous expansions and renovations took place. Later rulers of Egypt showed differing degrees of deference to the mosque and provided widely varying levels of financial assistance, both to the school and to the upkeep of the mosque. Today, al-Azhar remains a deeply influential institution in Egyptian society that is highly revered in the Sunni Muslim world and a symbol of Islamic Egypt.</p>
+
+<img src="Al-Azhar_(inside)_2006.jpg" width="43%"><img src="Cairo_-_Islamic_district_-_Al_Azhar_Mosque_and_University.jpg" width="57%">
+
+<div id="third"> </div>
+
+<h2 style="color:blue;">Need to be mentioned</h2>
+
+
+<pre style="border:2px solid DodgerBlue; font-size:20px;">
+1.<a   href="https://en.wikipedia.org/wiki/Saint_Catherine,_Egypt">Saint Catherine</a>
+2.<a   href="https://en.wikipedia.org/wiki/Khan_el-Khalili">Khan el-Khalili</a>
+
+</pre>
+</div>
+<div id="footer">
+    <div class="link" style="margin-left: 50px;">
+        <h4>home</h4>
+        <p>My Profile</p>
+    </div>
+    <div style="margin-left: 100px;">
+        <h4>countries</h4>
+        <div class="c">
+          <ul style="margin-right: 40px;">
+              <li style="color:white;"><a href="../France/eiffel-tower bage.html">france_eiffel</a></li>
+              <li style="color:white;"><a href="../project/iraq_light.html">Iraq</a></li>
+              <li style="color:white;"><a href="../France/Arc de Triomphe.html">France_Arc</a></li>
+
+          </ul>
+          <ul style="margin-right: 40px;">
+              <li style="color:white;"><a href="../som3a/pyramid.html.html">Egypt_pyrammids</a></li>
+              <li style="color:white;"><a href="../som3a/temples.html.html">Egypt_temples</a></li>
+              <li style="color:white;"><a href="../morsy/page2.html">Egypt_Alex</a></li>
+
+          </ul>
+          <ul>
+              <li style="color:white;"><a href="../project2/light.html">philistine</a></li>
+              <li style="color:white;"><a href="../Final Project Web Development/Wall_China.html">China</a></li>
+              <li style="color:white;"><a href="../project/tokyoo.html">Japan</a></li>
+          </ul>
+
+
+          <ul>
+              <li style="color:white;"><a href="../youssef ali/Italy.html">Italy Colosseume</a></li>
+              
+              <li style="color:white;"><a href="../morsy/page1.html">Egypt_museums</a></li>
+
+          </ul>
+      </div>
+    </div>
+    <div style="margin-left: auto;">
+        <h4>Follow Us</h4>
+        <div class="about-follow-us">
+            <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
