@@ -95,7 +95,7 @@
     width: 24px;
     height: 24px;
     -webkit-appearance: none;
-    background-color:#b3b3b3;
+    background-color: rgb(179 179 179);
     border-radius: 4px;
     margin-right: 10px;
     cursor: pointer;
