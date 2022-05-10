@@ -210,22 +210,19 @@ body{
 
 
 .flex-containr div {
-	padding-left:7.5%;	
+	padding-left:8.5%;	
 	
 	
 }
-.flex-containr div img:hover {
+
+
+
+.flex-containr div {
 	opacity:0.5;
 	
 	
 }
 
-.flex-container div img {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
-	
-	
-	
-}
 
 
 
