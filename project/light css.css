@@ -119,6 +119,7 @@ body {
     position:sticky;
     top:0;
     background-color:white;
+    z-index: 999;
   }
   
   
@@ -170,7 +171,7 @@ body {
     width:160px;
     float: left;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 999;
+    
   }
   .contdd a {
     color: black;
