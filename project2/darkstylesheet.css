@@ -84,9 +84,13 @@ table {
 td {
   text-align: center;
 }
+td:hover
+{
+    background-color: rgba(0, 106, 177, 0.564);
+}
 tr:hover
 {
-    background-color: rgba(255, 0, 0, 0.345);
+  background-color: #17242d91;
 }
 #footer{
 display: flex;
