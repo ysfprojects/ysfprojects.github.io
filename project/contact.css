@@ -1,4 +1,4 @@
-﻿.content{
+.content{
     font-size: 15px;
     line-height: 1.5;
     font-family: "Montserrat", sans-serif;
@@ -8,7 +8,8 @@
     max-width: 980px;
     padding-top: 64px!important;
     padding-bottom: 64px!important;
-    color: #757575!important;}
+    color: black!important;}
+
 .textt{
      
     line-height: 1.5;
@@ -17,7 +18,7 @@
     font-weight: 400;
     margin: 10px 0;
     font-family: "Montserrat", sans-serif;
-    color: #f1f1f1!important;
+    color:#00004d !important;
 
 }
 .opacity{
@@ -25,12 +26,12 @@
     font-size: 15px;
     line-height: 1.5;
     font-family: "Montserrat", sans-serif;
-    color: #757575!important;
+    color: white!important;
     box-sizing: content-box;
     height: 0;
     overflow: visible;
     border: 0;
-    border-top: 1px solid #eee;
+    border-bottom: 4px solid #8ac7db;
     margin: 20px 0;
     opacity: 0.60;
     }
@@ -38,7 +39,7 @@
     font-size: 15px;
     line-height: 1.5;
     font-family: "Montserrat", sans-serif;
-    color: #757575!important;
+    color: black!important;
     box-sizing: inherit;
     margin-top: 16px!important;
     margin-bottom: 16px!important;
@@ -48,7 +49,7 @@
     box-sizing: inherit;
     font-size: 36px!important;
     margin-right: 16px!important;
-    color: white!important;
+    color: #cc0000!important;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     text-rendering: auto;
@@ -65,14 +66,25 @@ font-size:25px;
 width:30px;
 text-aligan:none;
 border-radius:50%;
-
-
-
 }    
+.fas{
+color:#757575;;
+font-size:50px;
+
+
+}
+.fas:hover {
+  color: tomato;
+  
+}
 
 body{
- background-color:black;
-
+   background-image:url('pexels-photomix-company-887751.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   
+  
 }
 
 .padding {
@@ -86,6 +98,7 @@ body{
     border: none;
     border-bottom: 4px solid #ccc;
     width:55%;
+    
 }
 .light-gray, {
     color: balck!important;
@@ -104,7 +117,7 @@ button, input, select, textarea, optgroup {
     margin: 0;
 }
 a:hover {
-  color: #ff9999;
+  color: tomato;
   
 }
 button:hover {
