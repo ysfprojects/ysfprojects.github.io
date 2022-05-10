@@ -4,7 +4,7 @@ html {
 body{
 	animation-name: fade;
   animation-duration: 1.5s;
-  overflow: hidden;
+
   
   
 	margin:0;
@@ -189,6 +189,27 @@ body{
 
 
 }
+
+
+
+.flex-container {
+	padding-top:5%;
+
+	height:90%;
+	margin-left:0.9%;
+	margin-top:5%;
+	width:98%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(49, 51, 52);
+	border-radius: 25px;
+	justify-content: center;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
 
 
 
