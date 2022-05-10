@@ -71,7 +71,7 @@
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    margin:-566px 44px -50px 585px;
+    margin:52% 5% -3% 53%;
 }
 .fig{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -86,14 +86,14 @@
    
   border-radius: 8px; 
   box-shadow: 0px 8px 16px rgba(0, 0, 0, .7);
-  margin:0 0 0 541px;
+  margin:0 0 0 51%;
 }
 .figu{
      font-family: "Roboto";
      font-size: 15px;
      padding-top: 5px;
      font-style: italic;
-     margin:0 0 0 550px;
+     margin:0 0 0 53%;
      color: #04339d;
      position: relative;
     }
@@ -110,7 +110,7 @@ body{
      font-size: 20px;
      text-align: left;
      position: relative;
-     margin: -474px 556px -39px -7px;
+     margin: --43% 52% -44% 1%;
 }
 .last{
     
@@ -121,7 +121,7 @@ body{
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    margin: -290px -28px 21px 759px;
+    margin: -27% -2% 2% 70%;
 }
 .fig2{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -130,7 +130,7 @@ body{
     font-size: 15px;
     padding-top: 0px;
     font-style: italic;
-    margin-left:30px;
+    margin-left:3%;
  }   
 .lastt{
     
@@ -139,7 +139,7 @@ body{
     font-weight: 300;
     line-height: 1.5em;
     box-sizing: border-box;
-    margin: 17px 15px 0px;
+    margin:3% 1% 0%; ;
     font-size: 20px;
     text-align: left;
 }
