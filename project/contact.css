@@ -116,7 +116,7 @@ button, input, select, textarea, optgroup {
     font: inherit;
     margin: 0;
 }
-button{text-decoration:none;}
+
 
 button:hover {
   background-color:#d9d9d9;
