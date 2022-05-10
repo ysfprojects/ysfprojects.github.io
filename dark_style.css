@@ -76,7 +76,7 @@ body{
 }
 .undernav-text{
 	
-	
+	color:white;
 	width:30%;
 	font-size:50px;
 	position:absolute;
@@ -120,20 +120,20 @@ text-align: center;
 }  
 .fa-facebook {  
    
-  color: rgb(0, 0, 0);  
+  color: white;  
 }  
 .fa-twitter {  
    
-  color: rgb(0, 0, 0);  
+  color: white;  
 }  
 
 
 .fa-instagram {  
     
-  color: rgb(0, 0, 0);  
+  color: white;  
 }  
 .fa-youtube {   
-  color: rgb(0, 0, 0);  
+  color: white;  
 }  
   
 .fa:hover {  
@@ -141,19 +141,19 @@ text-align: center;
 }
 
 .fa-facebook:hover{
-    border: #f1f1f1 solid 2px;
+
     color: darkblue;
   }
   .fa-twitter:hover{
-    border: #f1f1f1 solid 2px;
+
     color: #096ab9;
   }
   .fa-youtube:hover{
-    border: #f1f1f1 solid 2px;
+
     color: darkred;
   }
   .fa-instagram:hover{
-    border: #f1f1f1 solid 2px;
+
     color: rgb(125, 45, 216);
   }
 
