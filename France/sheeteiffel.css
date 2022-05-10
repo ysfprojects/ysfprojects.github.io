@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
   .navbar {
     z-index:999;
     display: flex;
