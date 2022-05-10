@@ -247,3 +247,19 @@ p {
 	
 	
 }
+.fa-facebook:hover{
+  border: #f1f1f1 solid 2px;
+  color: darkblue;
+}
+.fa-twitter:hover{
+  border: #f1f1f1 solid 2px;
+  color: #096ab9;
+}
+.fa-youtube:hover{
+  border: #f1f1f1 solid 2px;
+  color: darkred;
+}
+.fa-instagram:hover{
+  border: #f1f1f1 solid 2px;
+  color: rgb(125, 45, 216);
+}
