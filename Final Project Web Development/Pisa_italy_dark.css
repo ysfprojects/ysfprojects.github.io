@@ -20,7 +20,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+ 
 
 }
 
@@ -30,7 +30,7 @@ nav a {
     width: 100%;
     text-align: center;
     text-decoration: none;
-    padding: 35px 5px;
+    padding: 15px 0px;
     color: #FFF;
     text-transform: uppercase;
     letter-spacing: 0.5px;
