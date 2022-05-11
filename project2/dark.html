@@ -13,12 +13,27 @@
     <script type="text/javascript">
 
         function aqsa() {
-            var pic = "Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_(NE_exposure).jpg"
-            document.getElementById('aqsa').src = pic;
+            var x=document.getElementById('aqsa');
+            if(x.style.display==="none")
+            {
+                x.style.display="flex";
+            }
+            else 
+            {
+                x.style.display="none";
+            }
         }
         function dome() {
-            var pic = "Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg"
-            document.getElementById('dome').src = pic;
+            var x =  document.getElementById('dome');
+           
+            if(x.style.display==="none")
+            {
+                x.style.display="flex";
+            }
+            else 
+            {
+                x.style.display="none";
+            }
         }
     </script>
 
@@ -108,11 +123,11 @@
     <div style="margin-left:13%;padding:1px 16px;display: flex; flex-direction: row; ">
         <div style="display: flex;flex-direction:column ; margin-left:10% ; width: 400px;">
             <button style=" background-color: rgb(255, 0, 0); border-radius: 12px;color: aliceblue;padding: 5px;;" onclick="aqsa()">AQSA MOSQUE </button>
-            <img id="aqsa" />
+             <img id="aqsa" style="display:none" src="Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_(NE_exposure).jpg" />
         </div>
         <div style="display: flex;flex-direction:column ; margin-left:10% ; width: 400px;  ">
             <button style=" background-color: rgb(255, 0, 0); border-radius: 12px; color: aliceblue;padding: 5px;" onclick="dome()">DOME OF ROCK MOSQUE </button>
-            <img id="dome" />
+           <img id="dome" style="display:none;" src="Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg ">
         </div>
     </div>
     <div style="margin-left:13%;padding:1px 16px;  ">
