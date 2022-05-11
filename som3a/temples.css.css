@@ -203,4 +203,8 @@ border-radius: 12px;
   padding: 15px;
 }
 
+.fa:hover {
+	border: 3px solid white;
+	
+}
 
