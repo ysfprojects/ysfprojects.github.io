@@ -53,7 +53,7 @@
     font-size:40px
 }
 .frist{  
-    color: #ffffff;
+    color: #3C4858;
     font-family: "Arial";
     font-weight: 300;
     line-height: 1.5em;
@@ -64,13 +64,14 @@
 }
 .leftt{
     
-    color: #ffffff;
+    color: #3C4858;
     font-family: "Arial";
     font-weight: 300;
     line-height: 1.5em;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
+    margin:-52% 5% -2% 53%;
 }
 .fig{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -82,26 +83,26 @@
     
  }                   
 .imgsenso{
-  float: right; 
- border-radius: 8px; 
+   
+  border-radius: 8px; 
   box-shadow: 0px 8px 16px rgba(0, 0, 0, .7);
+  margin:0 0 0 51%;
 }
 .figu{
      font-family: "Roboto";
      font-size: 15px;
      padding-top: 5px;
      font-style: italic;
-     margin:0 0 0 550px;
-     color: #3691b0;
+     margin:0 0 0 53%;
+     color: #04339d;
      position: relative;
     }
 body{
-    background-color:#000024;
+    background-color:#e6e6ff;
     margin: 0px;
-    
 }
 .rightt{
-     color: #ffffff;
+     color: #3C4858;
      font-family: "Arial";
      font-weight: 300;
      line-height: 1.5em;
@@ -109,34 +110,36 @@ body{
      font-size: 20px;
      text-align: left;
      position: relative;
+     margin: -43% 52% -4% 1%;
 }
 .last{
     
-    color: #ffffff;
+    color: #3C4858;
     font-family: "Arial";
     font-weight: 300;
     line-height: 1.5em;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
+    margin: -27% -2% 2% 70%;
 }
 .fig2{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     text-align: left;
-    color: #999900;
+    color: #b30000;
     font-size: 15px;
-    padding-top: 5px;
+    padding-top: 0px;
     font-style: italic;
-    margin-left:30px;
+    margin-left:3%;
  }   
 .lastt{
     
-    color: #ffffff;
+    color: #3C4858;
     font-family: "Arial";
     font-weight: 300;
     line-height: 1.5em;
     box-sizing: border-box;
-    margin: 17px 15px 0px;
+    margin:3% 1% 0%; ;
     font-size: 20px;
     text-align: left;
 }
@@ -146,7 +149,7 @@ body{
   margin: 0;
   padding: 0;
   width: 13%;
-  background-color: #f1f1f1;
+  background-color: #bb5e5e;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -158,6 +161,9 @@ body{
   padding : 8px 16px;
   text-decoration: none;
   width: 100% ;
+  font-size:20px;
+  padding:20px 20px 20px 10px;
+  color: #030a1c;
 }
 
 .nav a:hover:not(.active) {
